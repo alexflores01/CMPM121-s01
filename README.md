@@ -1,6 +1,6 @@
-# CMPM 121 Section Activity starter
+# What I changed
 
-This is the Fall 2026 S01 starter for making a small interactive page and learning the path from a local edit to a published site. The course template is public: you do **not** need to join the course GitHub organization. Create a **public** repository under your own GitHub account using the template's **Use this template → Create a new repository** button.
+Each time you click the button, the number shown next to Counter goes up by one. In src/main.ts, in the click handler I first added a "counter" variable that first increments with every counter++, then writes the new value into the page with "counterElement.textContect = counter.toString()".
 
 ## Set up on your computer
 
